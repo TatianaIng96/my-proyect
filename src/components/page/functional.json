@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_functionals",
+  "info": {
+    "displayName": "functional",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "title"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "description"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "functions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::function.function"
+    }
+  }
+}

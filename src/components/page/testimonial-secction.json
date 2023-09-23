@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_testimonial_secctions",
+  "info": {
+    "displayName": "testimonial-secction"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "description"
+    },
+    "description": {
+      "type": "string",
+      "default": "description",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_texts",
+  "info": {
+    "displayName": "text"
+  },
+  "options": {},
+  "attributes": {
+    "descriptonOne": {
+      "type": "string",
+      "required": true
+    },
+    "descriptionTwo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

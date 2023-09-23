@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_visions",
+  "info": {
+    "displayName": "vision"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "title"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "description"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

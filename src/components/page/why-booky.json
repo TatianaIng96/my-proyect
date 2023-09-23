@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_why_bookies",
+  "info": {
+    "displayName": "whyBooky",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "benefits": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::benefit.benefit"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

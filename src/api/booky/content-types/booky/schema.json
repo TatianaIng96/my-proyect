@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "bookies",
+  "info": {
+    "singularName": "booky",
+    "pluralName": "bookies",
+    "displayName": "Booky",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "text": {
+      "displayName": "text",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.text",
+      "required": true
+    },
+    "vision": {
+      "displayName": "vision",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.vision"
+    },
+    "whyBooky": {
+      "displayName": "whyBooky",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.why-booky",
+      "required": true
+    },
+    "textTwo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.text"
+    },
+    "testimonial": {
+      "displayName": "testimonial-secction",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.testimonial-secction"
+    },
+    "functional": {
+      "displayName": "functional",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.functional"
+    }
+  }
+}

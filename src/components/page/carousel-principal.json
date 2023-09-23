@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_carousel_principals",
+  "info": {
+    "displayName": "carousel-principal",
+    "icon": "manyToOne"
+  },
+  "options": {},
+  "attributes": {
+    "carousel": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::carousel.carousel"
+    }
+  }
+}
